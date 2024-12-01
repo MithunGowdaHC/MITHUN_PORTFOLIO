@@ -123,18 +123,12 @@ export const personalData = {
   name: "Mithun",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
+  description: "My name is Mithun Gowda....",
+  email: "mithungowdahc12a@gmail.com",
+  phone: "+918431676047",
+  address: "Karnataka, India",
+  github: "https://github.com/mithungowda10",
+  
 };
 ```
 
