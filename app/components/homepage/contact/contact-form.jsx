@@ -15,43 +15,43 @@ function ContactForm() {
     message: "",
   });
 
-  const checkRequired = () => {
-    if (userInput.email && userInput.message && userInput.name) {
-      setError({ ...error, required: false });
-    }
-  };
+  // const checkRequired = () => {
+  //   if (userInput.email && userInput.message && userInput.name) {
+  //     setError({ ...error, required: false });
+  //   }
+  // };
 
-  const handleSendMail = async (e) => {
-    e.preventDefault();
+  // const handleSendMail = async (e) => {
+  //   e.preventDefault();
 
-    if (!userInput.email || !userInput.message || !userInput.name) {
-      setError({ ...error, required: true });
-      return;
-    } else if (error.email) {
-      return;
-    } else {
-      setError({ ...error, required: false });
-    };
+  //   if (!userInput.email || !userInput.message || !userInput.name) {
+  //     setError({ ...error, required: true });
+  //     return;
+  //   } else if (error.email) {
+  //     return;
+  //   } else {
+  //     setError({ ...error, required: false });
+  //   };
 
-    try {
-      // setIsLoading(true);
-      // const res = await axios.post(
-      //   `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-      //   userInput
-      // );
+  //   try {
+  //     // setIsLoading(true);
+  //     // const res = await axios.post(
+  //     //   `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+  //     //   userInput
+  //     // );
 
-      toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
-    } catch (error) {
-      toast.error(error?.response?.data?.message);
-    } finally {
-      setIsLoading(false);
-    };
-  };
+  //     toast.success("Message sent successfully!");
+  //     setUserInput({
+  //       name: "",
+  //       email: "",
+  //       message: "",
+  //     });
+  //   } catch (error) {
+  //     toast.error(error?.response?.data?.message);
+  //   } finally {
+  //     setIsLoading(false);
+  //   };
+  // };
 
   return (
     <div>
