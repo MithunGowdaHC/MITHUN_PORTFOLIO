@@ -11,7 +11,8 @@ export const skillsData = [
   'Figma',
   'Firebase',
   'MaterialUI',
-  'AceternityUI'
+  'AceternityUI',
+  'NextJs'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

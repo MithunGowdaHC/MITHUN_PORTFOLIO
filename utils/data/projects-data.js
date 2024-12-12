@@ -39,7 +39,7 @@ export const projectsData = [
       name: 'NFT Marketplace Application',
       description:
         'Built a user-friendly NFT marketplace with features for buying, selling, and trading digital assets using ReactJS, Firebase, and Redux.',
-      tools: ['ReactJS', 'Firebase', 'Redux',"Tailwind CSS"],
+      tools: ['ReactJS', 'Firebase',"Tailwind CSS"],
       role: 'Full Stack Developer',
       date: 'April 2024',
       code: 'https://github.com/MithunGowdaHC/ENFTI',
@@ -58,16 +58,3 @@ export const projectsData = [
     
   ]
 
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
